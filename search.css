@@ -1,0 +1,78 @@
+.header{
+    width: 100%;
+    height: 120px;
+    border-bottom:2px solid black;
+    display: flex;
+}
+
+.navtable{
+    width:80px;
+    height: 30px;
+    border-style: solid;
+    color:#F2F2F2;
+    text-align: left;
+}
+
+.slogo{
+    text-align:center;
+    border:1px solid black;
+    width:70px;
+    height:70px;
+}
+/* pf == 프로필 약자 */
+.pfbox{
+    border:1px solid black;
+    height: 80px;
+    width: 300px;
+    text-align:left;
+}
+
+.pfim{
+    border:1px solid black;
+    width: 100px;
+    height: 65px;
+}
+
+.pft1{ 
+    text-align:right;
+    color:#0070C0;
+}
+
+.pft2{
+    text-align:right;
+    color:red;
+}
+
+.step1{
+    dispaly:flex;
+}
+    
+
+.restaurant{
+    border:1px solid black;
+    width: 90px;
+    height: 90px;
+}
+.tourist{
+    border:1px solid black;
+    width: 90px;
+    height: 90px;
+}
+.cafe{
+    border:1px solid black;
+    width: 90px;
+    height: 90px;
+}
+
+.footer{
+    height: 98px;
+    /* 가로 사이즈를 웹 페이지 전체 */
+    width:100%; 
+    /* 아래 여백 없음 */
+    bottom:0;
+    /* 하단 고정 */
+    position:fixed;
+    background-color: #D0CECE;
+    border-top: 2px solid black;
+    color:#797979;
+}
