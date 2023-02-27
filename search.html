@@ -12,25 +12,40 @@
         <!-- 리뷰 검색하기 or 리뷰 작성하기 버튼 -->
         <nav>
             <table class="navtable">
-                <td><a href="search.html">리뷰 선택하기</a></tr>
-                <td><a href="write.html">리뷰 작성하기</a></tr>
+                <tr>
+                    <th><a href="search.html">리뷰 선택하기</a></th>
+                    <th><a href="write.html">리뷰 작성하기</a></th>
+                </tr>
             </table>
         </nav>
         <!-- 로고 사진 -->
         <a href="main.html"><img class="slogo" src="images/스몰 로고.png"></a>
         <!-- 프로필 -->
-        <nav class="pfbox">
-            <a href="mypage.html">
-                <img class="pfim" src="images/프로필 사진.png"> 
-                <p class="pft1">Nickname님</p>
-                <p class="pft2">🔔 새 알림 0건</p>
-            </a>
-        </nav>
+        <a href="mypage.html">
+            <table class="pftb">
+                <tr>
+                    <td rowspan="2">
+                        <img class="pfim" src="images/프로필 사진.png">
+                    </td>
+                    <td>
+                        <p class="pft1">Nickname</p>
+                        <p class="pft0">님</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pft0">🔔 새 알림</p>
+                         <p class="pft2">0</p>
+                        <p class="pft0">건</p>
+                    </td>
+                </tr>
+            </table>
+        </a>
     </header>
     <main>
         <!-- 장소의 타입 선택 -->
+        <h3>STEP 1 장소의 타입 선택</h3>
         <section class="step1">
-            <h3>STEP 1 장소의 타입 선택</h3>
             <img class="restaurant" src="images/식당 0.png">
             <p>Restaurant</p>
             <img class="tourist" src="images/관광지 0.png">

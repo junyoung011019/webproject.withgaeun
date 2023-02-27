@@ -1,78 +1,107 @@
+a{
+    text-decoration:none;
+}
+
 .header{
     width: 100%;
-    height: 120px;
+    height: 110px;
     border-bottom:2px solid black;
     display: flex;
 }
 
 .navtable{
-    width:80px;
-    height: 30px;
-    border-style: solid;
-    color:#F2F2F2;
-    text-align: left;
+    margin-top:45px;
+    margin-left:15px;
+    width:200px;
+    height: 43px;
+    border: 2px solid black;
+    background-color: #F2F2F2;
+    font-size:12px;
 }
+
 
 .slogo{
-    text-align:center;
-    border:1px solid black;
-    width:70px;
-    height:70px;
+    margin-top: 18px;
+    margin-left:20px;
+    width:80px;
+    height:80px;
+    border:1px solid black;   
 }
 /* pf == 프로필 약자 */
-.pfbox{
-    border:1px solid black;
-    height: 80px;
-    width: 300px;
-    text-align:left;
-}
 
 .pfim{
-    border:1px solid black;
-    width: 100px;
+    width: 65px;
     height: 65px;
+    border:1px solid black;
+    border-radius: 40px;
+}
+
+.pftb{
+    margin-top:20px;
+    margin-left:20px;
+    width:210px;
+    height: 20px;
+    border:1px solid black;
+    border-radius: 15px;
+    text-align:end;
+}
+
+.pft0{
+    display: inline;
+    color:black;
 }
 
 .pft1{ 
-    text-align:right;
+    display: inline;
+    margin-right: 5px;
+    font-size:14px;
     color:#0070C0;
+    font-weight:900;
 }
 
 .pft2{
-    text-align:right;
+    display: inline;
+    margin-top:0px;
+    margin-right: 5px;
+    height:5px;
+    font-size:14px;
     color:red;
+    font-weight: 900;
+}
+
+.step{
+    width:100%;
+    height: 5px;
+    border:1px solid black;
 }
 
 .step1{
-    dispaly:flex;
+    display:flex;
 }
     
 
 .restaurant{
-    border:1px solid black;
     width: 90px;
     height: 90px;
+    border:1px solid black;
 }
 .tourist{
-    border:1px solid black;
     width: 90px;
     height: 90px;
+    border:1px solid black;
 }
 .cafe{
-    border:1px solid black;
     width: 90px;
     height: 90px;
+    border:1px solid black;
 }
 
 .footer{
-    height: 98px;
-    /* 가로 사이즈를 웹 페이지 전체 */
     width:100%; 
-    /* 아래 여백 없음 */
+    height: 98px;
+    border-top: 2px solid black;
     bottom:0;
-    /* 하단 고정 */
     position:fixed;
     background-color: #D0CECE;
-    border-top: 2px solid black;
     color:#797979;
 }
