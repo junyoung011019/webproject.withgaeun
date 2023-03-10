@@ -86,7 +86,7 @@ a{
     height:150px;
 }
 
-.rbutton{
+#b1{
     width: 133px;
     height: 170px;
     margin-left: 30px;
@@ -95,7 +95,16 @@ a{
     font-size:18px;
     border-color:white;
 }
-.tbutton{
+
+#b1.clicked img{
+    content: url("images/식당\ 1.png");
+}
+
+#b1.clicked{
+    color:black;
+}
+
+#b2{
     width: 133px;
     height: 170px;
     margin-left:45px;
@@ -104,7 +113,16 @@ a{
     font-size:18px;
     border-color:white;
 }
-.cbutton{
+
+#b2.clicked img{
+    content: url("images/관광지\ 1.png");
+}
+
+#b2.clicked{
+    color:black;
+}
+
+#b3{
     width: 133px;
     height: 170px;
     margin-left:45px;
@@ -113,28 +131,33 @@ a{
     font-size:18px;
     border-color:white;
 }
-    
+
+#b3.clicked img{
+    content: url("images/카페\ 1.png");
+}
+
+#b3.clicked{
+    color:black;
+} 
+
 
 .restaurant{
     width: 115px;
     height: 115px;
     border:1px solid black;
     border-radius: 10px;
-    opacity: 20%;
 }
 .tourist{
     width: 115px;
     height: 115px;
     border:1px solid black;
     border-radius: 10px;
-    opacity: 20%;
 }
 .cafe{
     width: 115px;
     height: 115px;
     border:1px solid black;
     border-radius: 10px;
-    opacity: 20%;
 }
 
 .step2{
