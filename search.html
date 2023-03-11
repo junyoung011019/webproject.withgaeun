@@ -47,18 +47,18 @@
         <h3 class="step">STEP 1 장소의 타입 선택</h3>
         <section class="step1">
             <button id="b1">
-                <img class="restaurant" src="images/식당 0.png">
-                <p>Restaurant</p>
+                <img id="b1i" src="images/식당 0.png">
+                <p id="T1">Restaurant</p>
             </button>
 
             <button id="b2">
-                <img class="tourist" src="images/관광지 0.png">
-                <p>Tourist Spot</p>
+                <img id="b2i" src="images/관광지 0.png">
+                <p id="T2">Tourist Spot</p>
             </button>
 
             <button id="b3">
-                <img class="cafe" src="images/카페 0.png">
-                <p>Cafe</p>
+                <img id="b3i" src="images/카페 0.png">
+                <p id="T3">Cafe</p>
             </button>
 
         </section>
@@ -66,16 +66,24 @@
         <!-- 검색할 방법 선택 -->
         <h3 class="step">STEP 2 검색할 방법 선택</h3>
         <section class="step2">
-            <button class="mbutton">지도로 검색하기</button>
-            <button class="nbutton">지역명으로 검색하기</button>
+            <button disabled id="mb">지도로 검색하기</button>
+            <button disabled id="nb">지역명으로 검색하기</button>
         </section>
-        <!-- 지도로 검색하기 -->
-        <section></section>
-        <!-- 지역명으로 검색하기 -->
-        <section></section>
-        <!-- 선택 완료 -->
+        <article id="step2box">
+            <!-- 지도로 검색하기 -->
+            <section>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5318.901601971355!2d126.9777891109851!3d37.56359612196832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f332cb082b%3A0xe92b70ac420cf0a8!2z7ISc7Jq47Yq567OE7Iuc7LKt!5e0!3m2!1sko!2skr!4v1678543845969!5m2!1sko!2skr" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+            <!-- 지역명으로 검색하기 -->
+            <section id="sabox">
+                <!-- 주소가 들어갈 박스 -->
+                <p id="box"></p>
+                <!-- 주소 검색 버튼 -->
+                <button id="SAb">주소 검색</button>
+            </section>
+        </article>
         <section>
-            <button class="okbutton">선택 완료</button>
+            <button disabled id="okbutton">선택 완료</button>
         </section>
     </main>
     <footer class="footer">

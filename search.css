@@ -96,13 +96,6 @@ a{
     border-color:white;
 }
 
-#b1.clicked img{
-    content: url("images/식당\ 1.png");
-}
-
-#b1.clicked{
-    color:black;
-}
 
 #b2{
     width: 133px;
@@ -114,13 +107,6 @@ a{
     border-color:white;
 }
 
-#b2.clicked img{
-    content: url("images/관광지\ 1.png");
-}
-
-#b2.clicked{
-    color:black;
-}
 
 #b3{
     width: 133px;
@@ -132,28 +118,20 @@ a{
     border-color:white;
 }
 
-#b3.clicked img{
-    content: url("images/카페\ 1.png");
-}
 
-#b3.clicked{
-    color:black;
-} 
-
-
-.restaurant{
+#b1i{
     width: 115px;
     height: 115px;
     border:1px solid black;
     border-radius: 10px;
 }
-.tourist{
+#b2i{
     width: 115px;
     height: 115px;
     border:1px solid black;
     border-radius: 10px;
 }
-.cafe{
+#b3i{
     width: 115px;
     height: 115px;
     border:1px solid black;
@@ -162,31 +140,67 @@ a{
 
 .step2{
     width: 550px;
-    height:400px;
+    height:60px;
 }
 
-.mbutton{
+#mb{
     width: 190px;
     height: 30px;
     margin-left: 44px;
     font-size:16px;
 }
 
-.nbutton{
+#nb{
     width:190px;
     height: 30px;
     margin-left:48px;
     font-size:16px;
 }
 
-.okbutton{
+#step2box{
+    width: 100%;
+    height: 350px;
+}
+
+#map{
+    width:500px;
+    height:300px; 
+    border:0;
+    display: none;
+    /* referrerpolicy="no-referrer-when-downgrade */ 
+}
+
+#sabox{
+    display: flex;
+}
+
+#box{
+    background-color: #FCFCFC;
+    border:1px solid black;
+    width: 350px;
+    height: 35px;
+    margin-left: 30px;
+}
+
+#SAb{
+    background-color: #7F7F7F;
+    border:1px solid black;
+    width: 90px;
+    height: 35px;
+    color:white;
+    margin-left: 30px;
+    margin-top: 17px;
+}
+
+#okbutton{
     width:250px;
     height: 60px;
     border-radius: 10px;
     border: 1px solid #d6d5d563;
-    opacity: 20%;
     font-size:20px;
 }
+
+
 
 .footer{
     width:100%; 
