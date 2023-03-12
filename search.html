@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>검색하기!</title>
     <link rel="stylesheet" href="search.css">
 </head>
 <body>
@@ -79,16 +79,19 @@
                 <!-- 주소가 들어갈 박스 -->
                 <p id="box"></p>
                 <!-- 주소 검색 버튼 -->
-                <button id="SAb">주소 검색</button>
+                <!-- <input id="SAb" type="button" onclick="Sab()" value="주소 검색"> -->
+                <button id="SAb" onclick="sample4_execDaumPostcode()">주소 검색</button>
+                <!-- <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기"><br> -->
             </section>
         </article>
         <section>
-            <button disabled id="okbutton">선택 완료</button>
+            <button disabled id="okbutton"><a href="select.html">선택 완료</a></button>
         </section>
     </main>
     <footer class="footer">
         <p>FOOTER</p>
     </footer>
-    <script src="search.js"></script>
+<script src="search.js"></script>
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 </body>
 </html>
