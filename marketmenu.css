@@ -74,6 +74,40 @@ a{
     font-weight: 900;
 }
 
+#topexplain{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    border-bottom:2px solid black;
+}
+
+.explain{
+    width: 240px;
+    height: 145px;
+    line-height: 30px;
+    border:1px solid black;
+    margin-top: 35px;
+    margin-left: 45px;
+
+}
+
+#marketname{
+    font-size: 20px;
+    font-style:italic;
+}
+
+.explain td{
+    text-align: left;
+}
+
+#mainimage{
+    width: 144px;
+    height: 144px;
+    border: 1px solid black;
+    margin-top: 35px;
+    margin-left: 65px;
+}
+
 .footer{
     width:100%; 
     height: 98px;
