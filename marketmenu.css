@@ -1,6 +1,3 @@
-*{
-    text-align:center;
-}
 
 a{
     text-decoration:none;
@@ -108,7 +105,53 @@ a{
     margin-left: 65px;
 }
 
+#write{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 430px;
+}
+
+#maintop{
+    width: 100%;
+    display: flex;
+    line-height: 18px;
+}
+
+#mainbottom{
+    width: 100%;
+    display: flex;
+    line-height: 18px;
+}
+
+.menu{
+    width: 200px;
+    height: 230px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.postimage{
+    width: 115px;
+    height: 115px;
+    border: 1px solid black;    
+}
+
+#articleList{
+    height: 20px;
+    text-align: center;
+    display: flex;
+    margin-left: 255px;
+}
+
+#nowList{
+    font-weight: bold;
+}
+
 .footer{
+    text-align: center;
     width:100%; 
     height: 98px;
     border-top: 2px solid black;
