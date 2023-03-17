@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글쓰기</title>
+    <link rel="stylesheet" href="write.css">
+</head>
+<body>
+    <header class="header">
+        <!-- 리뷰 검색하기 or 리뷰 작성하기 버튼 -->
+        <nav>
+            <table class="navtable">
+                <tr>
+                    <th><a href="search.html">리뷰 검색하기</a></th>
+                    <th><a href="write.html">리뷰 작성하기</a></th>
+                </tr>
+            </table>
+        </nav>
+        <!-- 로고 사진 -->
+        <a href="main.html"><img class="slogo" src="images/스몰 로고.png"></a>
+        <!-- 프로필 -->
+        <a href="mypage.html">
+            <table class="pftb">
+                <tr>
+                    <td rowspan="2">
+                        <img class="pfim" src="images/프로필 사진.png">
+                    </td>
+                    <td>
+                        <p class="pft1">Nickname</p>
+                        <p class="pft0">님</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pft0">🔔 새 알림</p>
+                         <p class="pft2">0</p>
+                        <p class="pft0">건</p>
+                    </td>
+                </tr>
+            </table>
+        </a>
+    </header>
+    <main>
+        <article>
+            <!-- 방문 정보 -->
+            <section id="info_top">
+                <select id="type_sel">
+                    <option>선택</option>
+                    <option>식당</option>
+                    <option>관광지</option>
+                    <option>카페</option>
+                </select>
+                <input id=write_title type="text" value="제목을 입력해 주세요.">
+            </section>
+            <section id="info_bottom">
+                <p id="adress">주소를 입력해주세요.</p>
+                <button id="adress_button">검색</button>
+                <button id="cal_button"><p id="visit_date">방문 일자</p><img id="cal_img" src="images/캘린더.png"></button>
+                <p id="visit_date_ymd">2023.03.17</p>
+            </section>
+            <button id="img_add">이미지 첨부</button>
+            <!-- 내용 입력 섹션 -->
+            <section>
+                <input id=review type="text" value="내용을 입력하세요.">
+            </section>
+            <section id="write_cancle_button">
+                <button class="wc_button">등록</button>
+                <button class="wc_button">취소</button>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <p>FOOTER</p>
+    </footer>
+</body>
+</html>

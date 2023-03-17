@@ -1,0 +1,186 @@
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.header{
+    width: 100%;
+    height: 110px;
+    border-bottom:2px solid black;
+    display: flex;
+}
+
+.navtable{
+    margin-top:45px;
+    margin-left:15px;
+    width:200px;
+    height: 43px;
+    border: 2px solid black;
+    background-color: #F2F2F2;
+    font-size:13px;
+}
+
+
+.slogo{
+    margin-top: 18px;
+    margin-left:20px;
+    width:80px;
+    height:80px;
+    border:1px solid black;   
+}
+/* pf == 프로필 약자 */
+
+.pfim{
+    width: 65px;
+    height: 65px;
+    border:1px solid black;
+    border-radius: 40px;
+}
+
+.pftb{
+    margin-top:20px;
+    margin-left:20px;
+    width:210px;
+    height: 20px;
+    border:1px solid black;
+    border-radius: 15px;
+    text-align:end;
+}
+
+.pft0{
+    display: inline;
+    color:black;
+}
+
+.pft1{ 
+    display: inline;
+    margin-right: 5px;
+    font-size:14px;
+    color:#0070C0;
+    font-weight:900;
+}
+
+.pft2{
+    display: inline;
+    margin-top:0px;
+    margin-right: 5px;
+    height:5px;
+    font-size:14px;
+    color:red;
+    font-weight: 900;
+}
+
+#info_top{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#type_sel{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+
+}
+
+#write_title{
+    width: 350px;
+    height: 33px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#info_bottom{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#adress{
+    width: 230px;
+    height: 33px;
+    font-size:18px;
+    border: 1px solid black;
+}
+
+#adress_button{
+    width: 50px;
+    height: 35px;
+    margin-top: 18px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+#cal_button{
+    display: flex;
+    text-align: center;
+    margin-top: 18px;
+    margin-left: 30px;
+    width: 100px;
+    height: 35px;
+}
+
+#visit_date{
+    margin-top: 3px;
+}
+
+#cal_img{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+#visit_date_ymd{
+    margin-top: 24px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#img_add{
+    width: 110px;
+    height: 35px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+#review{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 510px;
+    height: 500px;
+    border: 1px solid black;
+    font-size: 20px;
+    color:#929292;
+    background-color: #E6E6E6;
+}
+
+#write_cancle_button{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 180px;
+}
+
+.wc_button{
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+.footer{
+    text-align: center;
+    width:100%; 
+    height: 98px;
+    border-top: 2px solid black;
+    bottom:0;
+    position:fixed;
+    background-color: #D0CECE;
+    color:#797979;
+}

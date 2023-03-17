@@ -101,6 +101,65 @@ a{
     margin-left: 65px;
 }
 
+#title_part{
+    display: flex;
+}
+
+#main_title{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#write_info{
+    margin-left: 330px;
+}
+
+#write_info tr,td{
+    font-size: 14px;
+}
+
+#user_image{
+    width: 144px;
+    height: 144px;
+    border: 1px solid black;
+    margin-left: 200px;
+}
+
+#main_text{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#like_part{
+    display: flex;
+}
+
+#heart_button{
+    border-radius: 100px;
+    margin-left: 200px;
+}
+
+#heart{
+    width: 70px;
+    height: 75px;
+}
+
+#like_number{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#marketmenu_button{
+    width: 90px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 240px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
 .footer{
     text-align: center;
