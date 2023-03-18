@@ -113,17 +113,19 @@ a{
     font-size: 17px;
 }
 
+#visit_date{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
 #cal_button{
     display: flex;
     text-align: center;
     margin-top: 18px;
-    margin-left: 30px;
-    width: 100px;
+    margin-left: 10px;
+    width: 120px;
     height: 35px;
-}
-
-#visit_date{
-    margin-top: 3px;
 }
 
 #cal_img{

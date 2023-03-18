@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header class="header">
+        <!-- 로고 사진 -->
+        <a href="main.html"><img class="slogo" src="images/스몰 로고.png"></a>
+        <!-- 프로필 -->
+        <a href="mypage.html">
+            <table class="pftb">
+                <tr>
+                    <td rowspan="2">
+                        <img class="pfim" src="images/프로필 사진.png">
+                    </td>
+                    <td>
+                        <p class="pft1">Nickname</p>
+                        <p class="pft0">님</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pft0">🔔 새 알림</p>
+                         <p class="pft2">0</p>
+                        <p class="pft0">건</p>
+                    </td>
+                </tr>
+            </table>
+        </a>
+    </header>
+    <main>
+        <article>
+            <!-- 상단 문구 -->
+            <section id="login_top">
+                <p id="ko_login">로그인</p>
+                <p id="en_login">login</p>
+            </section>
+            <!-- 로그인 비밀번호  로그인버튼 -->
+            <section id="input_idpw">
+                <label class="id_pw" for="id">아이디&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input id="login_id" type="text">
+                <br>
+                <label class="id_pw" for="id">비밀번호&nbsp&nbsp&nbsp</label>
+                <input id="login_pw" type="password">
+                <button id="login_button">로그인</button>
+            </section>
+            <!-- 찾기 재설정 회원가입 -->
+            <section id="login_bottom">
+                <p><a href="findId.html">아이디 찾기&nbsp&nbsp |</a></p>
+                <p><a href="resetPassword.html">&nbsp&nbsp비밀번호 재설정&nbsp&nbsp |</a></p>
+                <p><a href="signup.html">&nbsp&nbsp회원가입</a></p>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <p>FOOTER</p>
+    </footer>
+</body>
+</html>

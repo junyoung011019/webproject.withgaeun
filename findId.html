@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이디 찾기</title>
+    <link rel="stylesheet" href="findId.css">
+</head>
+<body>
+    <header class="header">
+        <!-- 로고 사진 -->
+        <a href="main.html"><img class="slogo" src="images/스몰 로고.png"></a>
+        <!-- 프로필 -->
+        <a href="mypage.html">
+            <table class="pftb">
+                <tr>
+                    <td rowspan="2">
+                        <img class="pfim" src="images/프로필 사진.png">
+                    </td>
+                    <td>
+                        <p class="pft1">Nickname</p>
+                        <p class="pft0">님</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pft0">🔔 새 알림</p>
+                         <p class="pft2">0</p>
+                        <p class="pft0">건</p>
+                    </td>
+                </tr>
+            </table>
+        </a>
+    </header>
+    <main>
+        <article>
+            <!-- 상단 문구 -->
+            <section id="FYI_top">
+                <p id="ko_FYI">아이디 찾기</p>
+                <p id="en_FYI">Find your ID</p>
+            </section>
+            <!-- 이름 전화번호 본인인증버튼 -->
+            <section id="input_namecall">
+                <label class="name_call" for="fyi_name">이름&nbsp&nbsp&nbsp&nbsp</label>
+                <input id="fyi_name" type="text">
+                <br>
+                <label class="name_call" for="fyi_call">전화번호&nbsp&nbsp&nbsp</label>
+                <input id="fyi_call" type="text">
+                <button id="FYI_button">본인인증</button>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <p>FOOTER</p>
+    </footer>
+</body>
+</html>
