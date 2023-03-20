@@ -1,7 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 
-a{
-    text-decoration:none;
+#slink{
+    color:red;
+    text-decoration: none;
+}
+
+#wlink{
     color:black;
+    text-decoration: none;
 }
 
 .header{
@@ -9,6 +17,7 @@ a{
     height: 110px;
     border-bottom:2px solid black;
     display: flex;
+    justify-content: space-between;
 }
 
 .navtable{
@@ -24,7 +33,7 @@ a{
 
 .slogo{
     margin-top: 18px;
-    margin-left:20px;
+    margin-left:50%;
     width:80px;
     height:80px;
     border:1px solid black;   
@@ -40,7 +49,7 @@ a{
 
 .pftb{
     margin-top:20px;
-    margin-left:20px;
+    margin-left:30%;
     width:210px;
     height: 20px;
     border:1px solid black;
