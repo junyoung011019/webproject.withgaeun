@@ -54,10 +54,52 @@ a{
     border-radius: 20px;
 }
 
-
 /* ########################################
 기본틀
 ######################################## */
+
+main{
+    text-align: center;
+    width: 10px;
+}
+
+#adress_box{
+    background-color: #FCFCFC;
+    border:1px solid black;
+    width: 80%;
+    height: 20px;
+    text-align: left;
+}
+
+.place_name{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.place{
+    width: 80%;
+}
+
+.place_table td{
+    border:1px solid black;
+}
+
+.main_img{
+    width: 30%;
+    height: 30%;
+}
+
+.place_explain{
+    width: 240px;
+    line-height: 30px;
+}
+
+.sub_img{
+    width: 100%;
+    height: 100%;
+}
 
 
 footer{
