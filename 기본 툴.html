@@ -8,43 +8,28 @@
     <link rel="stylesheet" href="기본 툴.css">
 </head>
 <body>
-    <header class="header">
-        <!-- 리뷰 검색하기 or 리뷰 작성하기 버튼 -->
-        <nav>
-            <table class="navtable">
+    <header>
+         <table id="header_nav">
+            <tr>
+                <td><a href="">검색하기</a></td>
+                <td><a href="">작성하기</a></td>
+            </tr>  
+        </table>   
+
+        <img id="header_logo" src="images/스몰 로고.png">
+
+        <a id="header_profile" href="">
+            <table>
                 <tr>
-                    <th><a id="slink" href="search.html">리뷰 검색하기</a></th>
-                    <th><a id="wlink" href="write.html">리뷰 작성하기</a></th>
-                </tr>
-            </table>
-        </nav>
-        <!-- 로고 사진 -->
-        <a href="main.html"><img class="slogo" src="images/스몰 로고.png"></a>
-        <!-- 프로필 -->
-        <a href="mypage.html">
-            <table class="pftb">
-                <tr>
-                    <td rowspan="2">
-                        <img class="pfim" src="images/프로필 사진.png">
-                    </td>
-                    <td>
-                        <p class="pft1">Nickname</p>
-                        <p class="pft0">님</p>
-                    </td>
+                    <td rowspan="2"><img id="header_profile_img" src="images/프로필 사진.png"></td>
+                    <td class="profile_text">Nickname 님</td>
                 </tr>
                 <tr>
-                    <td>
-                        <p class="pft0">🔔 새 알림</p>
-                         <p class="pft2">0</p>
-                        <p class="pft0">건</p>
-                    </td>
+                    <td class="profile_text">새 알림 0건</td>
                 </tr>
-            </table>
+            </table>    
         </a>
     </header>
-
-
-
 
 
     <footer class="footer">
