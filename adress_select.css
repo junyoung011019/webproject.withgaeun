@@ -59,31 +59,39 @@ a{
 ######################################## */
 
 main{
-    text-align: center;
-    width: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 }
 
 #adress_box{
     background-color: #FCFCFC;
     border:1px solid black;
-    width: 80%;
+    width: 95%;
     height: 20px;
     text-align: left;
 }
 
+.place{
+    display:flex;
+}
+
 .place_name{
-    margin-left: 20px;
+    margin-bottom:2px;
     text-align: left;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
 }
 
-.place{
-    width: 80%;
+.place_table{
+    width: 50%;
+    height: 40%;
 }
 
 .place_table td{
     border:1px solid black;
+    /* text-align: left; */
 }
 
 .main_img{
@@ -91,14 +99,15 @@ main{
     height: 30%;
 }
 
-.place_explain{
-    width: 240px;
-    line-height: 30px;
+.sub_img{
+    width: 10%;
+    height: 10%;
 }
 
-.sub_img{
-    width: 100%;
-    height: 100%;
+.place_explain{
+    width: 30%;
+    height: 40%;
+    border: 1px solid black;
 }
 
 
