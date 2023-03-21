@@ -73,8 +73,9 @@ main{
     text-align: left;
 }
 
-.place{
+#place{
     display:flex;
+    height: 100%;
 }
 
 .place_name{
