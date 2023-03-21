@@ -63,7 +63,7 @@ a{
     text-align:left;
 }
 
-#step1{
+#step1_box{
     display: flex;
     justify-content: space-between;
 }
@@ -75,7 +75,6 @@ a{
     color:#D3D3D3;
     font-size:12px;
     border-color:white;
-    padding: 20;
 }
 
 .type_button_img{
