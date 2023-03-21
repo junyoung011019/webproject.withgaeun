@@ -1,36 +1,36 @@
-var b1=document.getElementById("b1")
-var b2=document.getElementById("b2")
-var b3=document.getElementById("b3")
+var restaurant_button_img=document.getElementById("restaurant_button_img")
+var tourist_button_img=document.getElementById("tourist_button_img")
+var cafe_button_img=document.getElementById("cafe_button_img")
 
-b1.onclick=function(){
-    document.getElementById("b1i").src="images/식당 1.png";
-    document.getElementById("b2i").src="images/관광지 0.png";
-    document.getElementById("b3i").src="images/카페 0.png";
-    document.getElementById("T1").style.color="red";
-    document.getElementById("T2").style.color="#D3D3D3";
-    document.getElementById("T3").style.color="#D3D3D3";
-    document.getElementById("mb").disabled=false;
-    document.getElementById("nb").disabled=false;
+restaurant_button_img.onclick=function(){
+    document.getElementById("restaurant_button_img").src="images/식당 1.png";
+    document.getElementById("tourist_button_img").src="images/관광지 0.png";
+    document.getElementById("cafe_button_img").src="images/카페 0.png";
+    document.getElementById("type1").style.color="red";
+    document.getElementById("type2").style.color="#D3D3D3";
+    document.getElementById("type3").style.color="#D3D3D3";
+    document.getElementById("map_search_button").disabled=false;
+    document.getElementById("adress_search_button").disabled=false;
 }
-b2.onclick=function(){
-    document.getElementById("b1i").src="images/식당 0.png";
-    document.getElementById("b2i").src="images/관광지 1.png";
-    document.getElementById("b3i").src="images/카페 0.png";
-    document.getElementById("T1").style.color="#D3D3D3";
-    document.getElementById("T2").style.color="red";
-    document.getElementById("T3").style.color="#D3D3D3";
-    document.getElementById("mb").disabled=false;
-    document.getElementById("nb").disabled=false;
+tourist_button_img.onclick=function(){
+    document.getElementById("restaurant_button_img").src="images/식당 0.png";
+    document.getElementById("tourist_button_img").src="images/관광지 1.png";
+    document.getElementById("cafe_button_img").src="images/카페 0.png";
+    document.getElementById("type1").style.color="#D3D3D3";
+    document.getElementById("type2").style.color="red";
+    document.getElementById("type3").style.color="#D3D3D3";
+    document.getElementById("map_search_button").disabled=false;
+    document.getElementById("adress_search_button").disabled=false;
 }
-b3.onclick=function(){
-    document.getElementById("b1i").src="images/식당 0.png";
-    document.getElementById("b2i").src="images/관광지 0.png";
-    document.getElementById("b3i").src="images/카페 1.png";
-    document.getElementById("T1").style.color="#D3D3D3";
-    document.getElementById("T2").style.color="#D3D3D3";
-    document.getElementById("T3").style.color="red";
-    document.getElementById("mb").disabled=false;
-    document.getElementById("nb").disabled=false;
+cafe_button_img.onclick=function(){
+    document.getElementById("restaurant_button_img").src="images/식당 0.png";
+    document.getElementById("tourist_button_img").src="images/관광지 0.png";
+    document.getElementById("cafe_button_img").src="images/카페 1.png";
+    document.getElementById("type1").style.color="#D3D3D3";
+    document.getElementById("type2").style.color="#D3D3D3";
+    document.getElementById("type3").style.color="red";
+    document.getElementById("map_search_button").disabled=false;
+    document.getElementById("adress_search_button").disabled=false;
 }
 
 // var SAb=document.getElementById("SAb")
