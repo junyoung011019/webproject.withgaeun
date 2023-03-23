@@ -125,12 +125,12 @@ a{
 }
 
 #heart{
-    width: 50px;
-    height: 55px;
+    width: 32px;
+    height: 35px;
 }
 
 #like_number{
-    font-weight: bold;
+    font-weight: 600;
 }
 
 #place_review_button_div{
