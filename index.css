@@ -13,10 +13,17 @@ article{
 
 #logo_main_text{
     margin-top:25px;
-    margin-bottom: 85px;
+    margin-bottom: 70px;
+    /* 나중에 마진 바텀 85로 수정할것 test삭제하고 */
     color:#6A7075;
     font-weight: bold;
     font-size:14px;
+}
+
+#test{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 
 .next_page_img{
