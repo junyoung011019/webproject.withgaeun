@@ -118,15 +118,17 @@ a{
     font-size: 14px;
     line-height: 18px;
     text-align: left;
+    margin-bottom: 5px;
 }
 
 #heart_button{
-    border-radius: 100px;
+
+    border-radius: 40px;
 }
 
 #heart{
-    width: 32px;
-    height: 35px;
+    width: 30px;
+    height: 25px;
 }
 
 #like_number{
