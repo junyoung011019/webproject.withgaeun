@@ -90,7 +90,7 @@ a{
 #write_button{
     width: 100%;
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 #write_button button{
@@ -99,30 +99,32 @@ a{
     height: 30px;
     font-size: 15px;
     font-weight: bold;
-    justify-content: end;
 }
 
 #review_list_top{
     width: 100%;
     display: flex;
-    line-height: 18px;
+    justify-content: space-between;
+    /* line-height: 18px; */
 }
 
 #review_list_bottom{
     width: 100%;
     display: flex;
-    line-height: 18px;
+    justify-content: space-between;
+    /* line-height: 18px; */
 }
 
 .review{
-    width: 200px;
-    height: 230px;
+    width: 100%;
+    height: 50%;
     text-align: center;
+    font-size: 12px;
 }
 
 .review_image{
-    width: 115px;
-    height: 115px;
+    width: 80px;
+    height: 80px;
     border: 1px solid black;    
 }
 
@@ -130,12 +132,9 @@ a{
     height: 20px;
     text-align: center;
     display: flex;
-    margin-left: 255px;
+    justify-content: center;
 }
 
-#now_list{
-    font-weight: bold;
-}
 
 footer{
     height: 80px;
