@@ -8,40 +8,30 @@
     <link rel="stylesheet" href="write.css">
 </head>
 <body>
-    <header class="header">
-        <!-- 리뷰 검색하기 or 리뷰 작성하기 버튼 -->
-        <nav>
-            <table class="navtable">
-                <tr>
-                    <th><a href="search.html">리뷰 검색하기</a></th>
-                    <th><a href="write.html">리뷰 작성하기</a></th>
-                </tr>
-            </table>
-        </nav>
-        <!-- 로고 사진 -->
-        <a href="main.html"><img class="slogo" src="images/스몰 로고.png"></a>
-        <!-- 프로필 -->
-        <a href="mypage.html">
-            <table class="pftb">
-                <tr>
-                    <td rowspan="2">
-                        <img class="pfim" src="images/프로필 사진.png">
-                    </td>
-                    <td>
-                        <p class="pft1">Nickname</p>
-                        <p class="pft0">님</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="pft0">🔔 새 알림</p>
-                         <p class="pft2">0</p>
-                        <p class="pft0">건</p>
-                    </td>
-                </tr>
-            </table>
-        </a>
-    </header>
+    <header>
+        <table id="header_nav">
+           <tr>
+               <td><a href="search.html">검색하기</a></td>
+               <td><a href="write.html">작성하기</a></td>
+           </tr>  
+       </table>   
+
+       <a href="index.html"><img id="header_logo" src="images/스몰 로고.png"></a>
+
+       <a id="header_profile" href="profile.html">
+           <table>
+               <tr>
+                   <td rowspan="2"><img id="header_profile_img" src="images/프로필 사진.png"></td>
+                   <td class="profile_text">Nickname 님</td>
+               </tr>
+               <tr>
+                   <td class="profile_text">새 알림 0건</td>
+               </tr>
+           </table>    
+       </a>
+   </header>
+
+
     <main>
         <article>
             <!-- 방문 정보 -->
@@ -54,24 +44,26 @@
                 </select>
                 <input id=write_title type="text" value="제목을 입력해 주세요.">
             </section>
+
+
             <section id="info_bottom">
-                <p id="adress">주소를 입력해주세요.</p>
+                <p id="adress_input">주소를 입력해주세요.</p>
                 <button id="adress_button">검색</button>
-                <label id="visit_date" for="cal_button">방문 일자</label>
-                <input id="cal_button" type="date">
+                <label id="visit_date" for="cal_input">방문 일자</label>
+                <input id="cal_input" type="date">
+                <button id="img_add">이미지 첨부</button>
             </section>
-            <button id="img_add">이미지 첨부</button>
-            <!-- 내용 입력 섹션 -->
-            <section>
+
+
+            <!-- 메인 섹션 -->
+            <section id="main_section">
                 <input id=review type="text" value="내용을 입력하세요.">
-            </section>
-            <section id="write_cancle_button">
                 <button id="wy_button">등록</button>
                 <button id="wc_button">취소</button>
             </section>
         </article>
     </main>
-    <footer class="footer">
+    <footer>
         <p>FOOTER</p>
     </footer>
 <script src="write.js"></script>
