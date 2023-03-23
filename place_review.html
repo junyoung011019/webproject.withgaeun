@@ -4,100 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>가게 메뉴</title>
-    <link rel="stylesheet" href="marketmenu.css">
+    <title>장소 리뷰</title>
+    <link rel="stylesheet" href="place_review.css">
 </head>
 <body>
-    <header class="header">
-        <!-- 리뷰 검색하기 or 리뷰 작성하기 버튼 -->
-        <nav>
-            <table class="navtable">
-                <tr>
-                    <th><a href="search.html">리뷰 검색하기</a></th>
-                    <th><a href="write.html">리뷰 작성하기</a></th>
-                </tr>
-            </table>
-        </nav>
-        <!-- 로고 사진 -->
-        <a href="main.html"><img class="slogo" src="images/스몰 로고.png"></a>
-        <!-- 프로필 -->
-        <a href="mypage.html">
-            <table class="pftb">
-                <tr>
-                    <td rowspan="2">
-                        <img class="pfim" src="images/프로필 사진.png">
-                    </td>
-                    <td>
-                        <p class="pft1">Nickname</p>
-                        <p class="pft0">님</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="pft0">🔔 새 알림</p>
-                         <p class="pft2">0</p>
-                        <p class="pft0">건</p>
-                    </td>
-                </tr>
-            </table>
-        </a>
-    </header>
+    <header>
+        <table id="header_nav">
+           <tr>
+               <td><a href="search.html">검색하기</a></td>
+               <td><a href="write.html">작성하기</a></td>
+           </tr>  
+       </table>   
+
+       <a href="index.html"><img id="header_logo" src="images/스몰 로고.png"></a>
+
+       <a id="header_profile" href="profile.html">
+           <table>
+               <tr>
+                   <td rowspan="2"><img id="header_profile_img" src="images/프로필 사진.png"></td>
+                   <td class="profile_text">Nickname 님</td>
+               </tr>
+               <tr>
+                   <td class="profile_text">새 알림 0건</td>
+               </tr>
+           </table>    
+       </a>
+   </header>
+
+
     <main>
         <!-- 상단 부분 -->
-        <article id="topexplain">
-            <table class="explain">
-                <tr>
-                    <td id="marketname"><b>상호명 :</b> </td>
-                </tr>
-                <tr>
-                    <td>영업 시간 : </td>
-                </tr>
-                <tr>
-                    <td>주소 : </td>
-                </tr>
+        <article id="place_explain">
+            <table id="place_explain_table">
+                <tr><th>상호명 :</td></tr>
+                <tr><td>영업 시간 : </td></tr>
+                <tr><td>주소 : </td></tr>
             </table>
+            <img id=place_main_img src="images/장소 메인 사진.png">
+        </article>
+        <div id="write_button"><button><a href="write.html">🖌    글쓰기</a></button></div>
 
-            <img id=mainimage src="images/빅사진.png">
-        </article>         
-        <button id="write"><a href="write.html">🖌    글쓰기</a></button>
-        <article id="maintop">
-                <section class="menu">
-                    <a href="writing1.html">
-                        <img class="postimage" href="images/글사진.png">
-                        <p>♡0 수 봄날의 보배를 <br> 그들은 피다.<br><br>2023.02.21</p>
-                    </a>
-                </section>
-                <section class="menu">
-                        <img class="postimage" href="images/글사진.png">
-                        <p>♡0 수 봄날의 보배를 <br> 그들은 피다.<br><br>2023.02.21</p>
-                </section>
-                <section class="menu">
-                    <img class="postimage" href="images/글사진.png">
+        <article id="review_list_top">
+            <section class="review">
+                <a href="writing1.html">
+                    <img class="review_image" href="images/리뷰 이미지.png">
+                    <p>♡0 수 봄날의 보배를 <br> 그들은 피다.<br><br>2023.02.21</p>
+                </a>
+            </section>
+            <section class="review">
+                    <img class="review_image" href="images/리뷰 이미지.png">
                     <p>♡0 수 봄날의 보배를 <br> 그들은 피다.<br><br>2023.02.21</p>
             </section>
-        </article>
-        <article id="mainbottom">
-            <section class="menu">
-                <img class="postimage" href="images/글사진.png">
-                <p>♡0 수 봄날의 보배를 <br> 그들은 피다.<br><br>2023.02.21</p>
-             </section>
-            <section class="menu">
-                <img class="postimage" href="images/글사진.png">
-                <p>♡0 수 봄날의 보배를 <br> 그들은 피다.<br><br>2023.02.21</p>
-              </section>
-            <section class="menu">
-                <img class="postimage" href="images/글사진.png">
+            <section class="review">
+                <img class="review_image" href="images/리뷰 이미지.png">
                 <p>♡0 수 봄날의 보배를 <br> 그들은 피다.<br><br>2023.02.21</p>
             </section>
         </article>
-        <article id="articleList">
-            <a href="marketmenu.html">
-                <p id="nowList">1&nbsp</p>
+
+        <article id="review_list_bottom">
+            <section class="review">
+                <img class="review_image" href="images/리뷰 이미지.png">
+                <p>♡0 수 봄날의 보배를 <br> 그들은 피다.<br><br>2023.02.21</p>
+             </section>
+            <section class="review">
+                <img class="review_image" href="images/리뷰 이미지.png">
+                <p>♡0 수 봄날의 보배를 <br> 그들은 피다.<br><br>2023.02.21</p>
+              </section>
+            <section class="review">
+                <img class="review_image" href="images/리뷰 이미지.png">
+                <p>♡0 수 봄날의 보배를 <br> 그들은 피다.<br><br>2023.02.21</p>
+            </section>
+        </article>
+
+        <article id="article_list">
+            <a href="">
+                <p id="now_list">1&nbsp</p>
             </a>
             <p>2 3 4 5</p>
         </article>
+
     </main>
-    <footer class="footer">
+    <footer>
         <p>FOOTER</p>
     </footer>
 </body>
