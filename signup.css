@@ -55,6 +55,8 @@ header{
 }
 
 #terms_box{
+    overflow: scroll;
+    height: 76px;
     width: 100%;
     border: 1px solid black;
 }
@@ -66,8 +68,10 @@ header{
 
 #marketing_box{
     margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
     border: 1px solid black;
+
 }
 
 main{
@@ -80,11 +84,24 @@ main div{
     width: 100%;
 }
 
+#pw, #pw_check, #name, #call_front, #email_box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#nickname{
+    margin-top: 10px;
+}
+
 #id, #pw, #pw_check, #name, #nickname{
     background-color: #F2F2F2;
     border: 1px solid #BFBFBF;
     width: 250px;
     height: 25px;
+}
+
+#id_box{
+    margin-bottom: 10px;
 }
 
 #call_front{
@@ -152,8 +169,7 @@ main div{
 footer{
     height: 80px;
     width:100%; 
-    bottom:0;
-    position:fixed;
+    margin-top: 20px;
     background-color: #D0CECE;
     color:#797979;
     text-align: center;
