@@ -87,6 +87,10 @@ a{
     font-size: 20px;
 }
 
+#id_label{
+    padding-top: 5px;
+    padding-right: 50px;
+}
 
 
 #login_id{
@@ -94,6 +98,11 @@ a{
     width: 250px;
     height: 35px;
     font-size: 20px;
+}
+
+#pw_label{
+    padding-top: 5px;
+    padding-right: 30px;
 }
 
 #login_pw{
