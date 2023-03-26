@@ -57,10 +57,10 @@
             <div><label for="call_front">전화</label></div>
             <div>
                 <select id="call_front">
-                    <option>010</option><option>011</option><option>016</option><option>017</option><option>018</option>
+                    <option value="010">010</option><option value="011">011</option><option value="016">016</option><option value="017">017</option><option value="018">018</option>
                 </select>
-                <input id="call_middle" type="text">
-                <input id="call_last" type="text">
+                <input id="call_middle" type="number">
+                <input id="call_last" type="number">
                 <button>본인인증</button>
             </div>
 
@@ -68,18 +68,19 @@
             <div id="email_box">
                 <input id="email_front" type="text">
                 <p>@</p>
-                <input id="email_last" type="text">
+                <input id="email_last" type="email">
                 <select id="email_select">
-                    <option>선택</option><option>직접 입력</option><option >naver.com</option><option>daum.net</option>
+                    <option>선택</option><option>직접 입력</option><option value="naver">naver.com</option><option value="daum">daum.net</option>
                 </select>
             </div>
             <div><label for="nickname">닉네임</label></div>
-            <input id="nickname" type="nickname">
+            <input id="nickname" type="text">
             <div><label id="nickname_explain" for="pw">닉네임은 월 1회만 변경 가능하므로 신중하게 결정해주세요!</label></div>
             <div id="signup_button_box"><button id="signup_button">회원가입</button></div>
         </main>
     <footer>
         <p>FOOTER</p>
     </footer>
+    <script src="signup.js"></script>
 </body>
 </html>
