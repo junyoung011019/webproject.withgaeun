@@ -59,35 +59,26 @@ a{
 기본틀
 ######################################## */
 
-#myprofile_top{
-    text-align: center;
-}
 
-#ko_myprofile{
-    margin-top: 20px;
-    font-size: 25px;
-    font-weight: 550;
-    margin-bottom: 0;
-}
-
-#en_myprofile{
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 15px;
-    font-weight: 400;
-}
-
-#myprofile_main{
+#myprofile_bottom{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap:wrap
+}
+
+/* 바텀 좌측 */
+
+#myprofile_bottom_left{
+    height: 500px;
+    width: 150px;
     text-align: center;
 }
 
-#profile_img_box{
-    width: 140px;
-    height: 230px;
+/* 바텀 좌측 상단*/
+
+#myprofile_bottom_left_top{
     border: 1px solid black;
-    margin-right: 10px;
+    height: 250px;
 }
 
 #profile_img{
@@ -107,47 +98,48 @@ a{
     color: #A6A6A6;
 }
 
-#buttons{
-    margin-top: 150px;
-    margin-left: 0px;
+/* 바텀 좌측 하단*/
+
+#myprofile_bottom_left_bottom{
+    margin-top: 80px;
+    height: 100px;
 }
 
-#okay{
+.okay_cancel_button{
     width: 130px;
     height: 35px;
     font-size: 18px;
     border-radius: 8px;
-}
-
-#cancel{
     margin-top: 10px;
-    width: 130px;
-    height: 35px;
-    font-size: 18px;
-    border-radius: 8px;
 }
 
-#profile_main_box{
-    width: 200px;
-    height: 450px;
+
+/* 바텀 우측 */
+
+#myprofile_bottom_right{
     border: 1px solid black;
-    margin-left: 10px;
-    padding: 10px;
+    height: 500px;
+    width: 230px;
+    padding: 5px;
 }
 
-#nickname_change{
+#right_margin{
+    margin-left: 10px;
+}
+
+.main_subject{
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#nickname_change_input{
     margin-top: 10px;
     background-color: #F2F2F2;
     border: 1px solid #BFBFBF;
     width: 180px;
     height: 25px;
-}
 
-div{
-    margin-left: 10px;
-    text-align: left;
-    font-weight: bold;
-    font-size: 15px;
 }
 
 #nickname_explain{
@@ -155,12 +147,9 @@ div{
     color: red;
 }
 
-#call_change_front, #email_change_front{
+#call_change_front{
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-#call_change_front{
     border: 1px solid #BFBFBF;
     height: 25px;
 }
@@ -175,12 +164,6 @@ div{
 #check_myself_button{
     margin-bottom: 10px;
     font-size: 15px;
-}
-
-#email_change_box{
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
 }
 
 #email_change_front{
@@ -201,26 +184,25 @@ div{
 }
 
 #resetpassword_button{
-    margin-bottom: 10px;
+    margin: 20px 0px 20px;
     font-size: 15px;
 }
 
-#ad_agree_box label{
-    font-weight: 500;
+#email_agree, #sms_agree{
+    font-size: 12px;
+    margin-top: 10px;
 }
 
-#delete_account{
-    text-align: right;
+#delete_account_button{
     margin-top: 30px;
-}
-
-#delete_account button{
+    margin-left: 90px;
     width: 120px;
     height: 30px;
     font-size: 15px;
     background-color: white;
     color:red;
     border-radius: 5px;
+    border: 1px solid #BFBFBF;
 }
 
 footer{
