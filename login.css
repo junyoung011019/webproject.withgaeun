@@ -10,6 +10,10 @@ header{
     padding: 10px;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
 
 #header_logo{
     width: 80px;
