@@ -18,11 +18,15 @@ a{
 #header_nav{
     width: 150px;
     height: 38px;
-    border: 2px solid black;
+    border-collapse: collapse;
     background-color: #F2F2F2;
     font-size: 14px;
     text-align: center;
     font-weight: bold;
+}
+
+#header_nav td{
+    border: 2px solid black;
 }
 
 
