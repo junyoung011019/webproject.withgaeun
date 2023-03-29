@@ -84,8 +84,19 @@ main div{
     width: 100%;
 }
 
-#pw, #pw_check, #name, #call_front, #email_box{
+#pw_check, #name, #call_front, #email_box{
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#pw{
+    margin-top: 10px;
+}
+
+#pw_explain{
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 

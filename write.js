@@ -30,3 +30,4 @@ write_cancel_button.onclick=function(){
         return;
     }
 }
+

@@ -47,6 +47,7 @@
 
             <div><label for="pw">비밀번호</label></div>
             <input id="pw" type="text">
+            <div id="pw_explain"><label for="pw">비밀번호는 최소 8글자 이상 사용하세요.</label></div>
 
             <div><label for="pw_check">비밀번호 확인</label></div>
             <input id="pw_check" type="text">
@@ -70,7 +71,6 @@
                 <p>@</p>
                 <input id="email_last" type="email">
                 <select id="email_select">
-                    <option>선택하기</option>
                     <option value="self">직접 입력</option>
                     <option value="naver">naver.com</option>
                     <option value="daum">daum.net</option>
@@ -79,7 +79,7 @@
             </div>
             <div><label for="nickname">닉네임</label></div>
             <input id="nickname" type="text">
-            <div><label id="nickname_explain" for="pw">닉네임은 월 1회만 변경 가능하므로 신중하게 결정해주세요!</label></div>
+            <div><label id="nickname_explain" for="nickname">닉네임은 월 1회만 변경 가능하므로 신중하게 결정해주세요!</label></div>
             <div id="signup_button_box"><button id="signup_button">회원가입</button></div>
         </main>
     <footer>
