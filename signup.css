@@ -116,6 +116,10 @@ main div{
     height: 25px;
 }
 
+input[type="number"]::-webkit-inner-spin-button { 
+    display: none; 
+  }
+
 #email_box{
     display: flex;
     justify-content: left;

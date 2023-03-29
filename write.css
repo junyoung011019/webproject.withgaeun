@@ -70,23 +70,24 @@ a{
 
 #info_top{
     display: flex;
-    margin-top: 10px;
+    margin-top: 12px;
     justify-content: space-between;
 }
 
 #type_sel{
-    width: 80px;
+    width: 20%;
     height: 33px;
     font-size: 16px;
 }
 
 #write_title{
-    width: 300px;
+    width: 75%;
     height: 30px;
     font-size: 16px;
 }
 
 #info_bottom{
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -118,6 +119,7 @@ a{
 
 
 #img_add{
+    margin-top: 5px;
     width: 110px;
     height: 30px;
     font-size: 13px;
@@ -139,7 +141,7 @@ a{
 }
 
 
-#wy_button{
+#write_okay_button{
     width: 80px;
     height: 40px;
     font-size: 18px;
@@ -149,7 +151,7 @@ a{
     margin: 10px;
 }
 
-#wc_button{
+#write_cancel_button{
     width: 80px;
     height: 40px;
     font-size: 18px;
